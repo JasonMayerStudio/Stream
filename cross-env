@@ -1,0 +1,10 @@
+Server started ! ✓
+
+Access URLs:
+-----------------------------------
+Localhost: http://localhost:3000
+      LAN: http://10.5.9.234:3000
+-----------------------------------
+Press CTRL-C to stop
+    
+webpack built 46d12fe8d5b7ac333166 in 7022ms

@@ -1,0 +1,24 @@
+{
+  "AWS_ACCOUNT_ID": "668156139991",
+  "CLI_PROFILE": "default",
+  "REGION": "eu-west-1",
+  "BUCKET": "bucket",
+  "MAX_AGE": "10",
+  "CRYPTO_BYTE_SIZE": 128,
+  "DDB_TABLE": "LambdAuthUsers",
+  "IDENTITY_POOL_NAME": "LambdAuth",
+  "DEVELOPER_PROVIDER_NAME": "login.mycompany.myapp",
+  "EXTERNAL_NAME": "My Authentication",
+  "EMAIL_SOURCE": "aws-dev.sam.elia@rwc.com",
+  "VERIFICATION_PAGE": "http://bucket.s3.amazonaws.com/verify.html",
+  "RESET_PAGE": "http://bucket.s3.amazonaws.com/reset.html",
+
+  "DEV": {
+    "REGION": "us-east-1",
+    "USER_POOL_ID": "us-east-1_snU9AePwT",
+    "APP_CLIENT_ID": "mf9mplv0u83fi9rlepc4b87ul"
+  },
+  "PROD": {
+    
+  }
+}
