@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Doughnut} from 'react-chartjs-2';
 
-// some of this code is a variation on https://jsfiddle.net/cmyker/u6rr5moq/
+
 var originalDoughnutDraw = Chart.controllers.doughnut.prototype.draw;
 Chart.helpers.extend(Chart.controllers.doughnut.prototype, {
   draw: function() {
