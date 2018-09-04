@@ -7,6 +7,8 @@ To install dependencies and clean the git repo:
 ```Shell
 npm run setup
 ```
+
+##npminstall
 DO NOT include setup.js - 
 
 Initializes a new project with this Application. Deletes the `react-apps`
